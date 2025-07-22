@@ -1,11 +1,10 @@
-# Awesome Integrated Perception and Prediction for Autonomous Driving
-
-This is a collection of research Papers about **Integrated Perception and Prediction for Autonomous Driving (PnP4AD)**, and the repository will be continuously updated to track the frontier of this field. 
+# Awesome Traffic Prediction Large Models
+This is a collection of research Papers about ****, and the repository will be continuously updated to track the frontier of this field. 
 
 :clap:Welcome to follow and star! If you find any related Papers or reports could be helpful, feel free to submit an issue or PR.
 
 ## Overview
-
+This repository presents a comprehensive review of Traffic Prediction Large Models, exploring their evolution from traditional deep learning to modern foundation models (LLMs/PFMs). We focus on multimodal traffic forecasting, where numerical sensor data integrates with real-time text for richer spatio-temporal modeling. The survey covers key methodologies, challenges, and future directions.
 
 
 

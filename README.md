@@ -11,38 +11,28 @@ This repository presents a comprehensive review of Traffic Prediction Large Mode
 ## Datasets
 | Dataset         | Sub-dataset         | Publication                                                                                             | Frequency | Year | Data Size    | Task                     |
 |-----------------|---------------------|---------------------------------------------------------------------------------------------------------|-----------|------|--------------|--------------------------|
-| **libcity**     | PEMS03             | Towards efficient and comprehensive urban spatial-temporal prediction: A unified library and performance benchmark | 15 min    | 2023 | 9.38M        | Flow, Speed, Occupancy  |
-|                 | PEMS04             |                                                                                                         | 5 min     | 2023 | 15.65M       | Flow, Speed, Occupancy  |
-|                 | PEMS07             |                                                                                                         | 5 min     | 2023 | 24.92M       | Flow, Speed, Occupancy  |
-|                 | PEMS08             |                                                                                                         | 5 min     | 2023 | 9.11M        | Flow, Speed, Occupancy  |
-|                 | PEMS Bay           |                                                                                                         | 5 min     | 2023 | 16.94M       | Flow, Speed, Occupancy  |
-|                 | Los-Loop           |                                                                                                         | 5 min     | 2023 | 7.09M        | Flow, Speed, Occupancy  |
-|                 | Loop Seattle       |                                                                                                         | 5 min     | 2023 | 33.95M       | Flow, Speed, Occupancy  |
-|                 | SZ-Taxi            |                                                                                                         | 15 min    | 2023 | 0.46M        | Flow, Speed, Occupancy  |
-|                 | Beijing Subway     |                                                                                                         | 30 min    | 2023 | 0.87M        | Flow, Speed, Occupancy  |
-|                 | SHMetro            |                                                                                                         | 15 min    | 2023 | 5.07M        | Flow, Speed, Occupancy  |
-|                 | HZMetro            |                                                                                                         | 15 min    | 2023 | 0.38M        | Flow, Speed, Occupancy  |
-|                 | Q-Traffic          |                                                                                                         | 15 min    | 2023 | 264.39M      | Flow, Speed, Occupancy  |
-| **Autoformer**  | traffic            | Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting           | hourly    | 2021 | 15,122,928   | occupancy rates         |
-| **Monash**      | Vehicle Trips      | Godahewa et al., Monash Time Series Forecasting Archive                                                 | hourly    | 2021 | 3.13M        | -                       |
-| **largeST**     | PEMS03             | Largest: A benchmark dataset for large-scale traffic forecasting                                        | 5 min     | 2023 | -            | -                       |
-|                 | PEMS04             |                                                                                                         | 5 min     | 2023 | -            | -                       |
-|                 | PEMS07             |                                                                                                         | 5 min     | 2023 | -            | -                       |
-|                 | PEMS08             |                                                                                                         | 5 min     | 2023 | -            | -                       |
-|                 | PEMS_BAY           |                                                                                                         | 5 min     | 2023 | -            | -                       |
-|                 | LOS_LOOP           |                                                                                                         | 5 min     | 2023 | -            | -                       |
-|                 | LOOP_SEATTLE       |                                                                                                         | 15 min    | 2023 | -            | -                       |
-|                 | SZ_TAXI            |                                                                                                         | 30 min    | 2023 | -            | -                       |
-|                 | beijing_subway     |                                                                                                         | 15 min    | 2023 | -            | -                       |
-|                 | SHMETROY           |                                                                                                         | 15 min    | 2023 | -            | -                       |
-|                 | HZMETRO            |                                                                                                         | 2 min     | 2023 | -            | -                       |
-|                 | Q-Traffic          |                                                                                                         | 15 min    | 2023 | -            | -                       |
-| **gluonts**     | TAXI               | Gluonts: Probabilistic and neural time series modeling in python                                        | 30 min    | 2020 | 55.00M       | -                       |
-|                 | UBER TLC DAILY     |                                                                                                         | daily     | 2020 | 0.05M        | -                       |
-|                 | UBER TLC HOURLY    |                                                                                                         | hourly    | 2020 | 1.13M        | -                       |
-| **TSLD**        | Traffic            | TimeSiam: A Pre-Training Framework for Siamese Time-Series Modeling                                     | hourly    | 2024 | 12,185       | -                       |
-| **Istanbul-Traffic** | -              | [Kaggle Dataset](https://www.kaggle.com/datasets/leonardo00/istanbul-traffic-index)                     | 1 minute  | 2022 | 881,000      | Traffic index (congestion) |
-| **TrafficText** | -                  | Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis                                      | monthly   | 2024 | 4,248        | Traffic Volume           |
+| **Libcity**     | PEMS03             | [LibCity: A Unified Library Towards Efficient and Comprehensive Urban Spatial-Temporal Prediction](https://arxiv.org/pdf/2304.14343) | 5 min    | 2023 | 9.38M        | Flow  |
+|                 | PEMS04             |                                                                                                         | 5 min     | 2023 | 15.65M       | Flow, Speed  |
+|                 | PEMS07             |                                                                                                         | 5 min     | 2023 | 24.92M       | Flow  |
+|                 | PEMS08             |                                                                                                         | 5 min     | 2023 | 9.11M        | Flow, Speed  |
+|                 | PEMS Bay           |                                                                                                         | 5 min     | 2023 | 16.94M       | Speed  |
+|                 | Los-Loop           |                                                                                                         | 5 min     | 2023 | 7.09M        | Speed  |
+|                 | Loop Seattle       |                                                                                                         | 15 min     | 2023 | 33.95M       | Speed  |
+|                 | SZ-Taxi            |                                                                                                         | 30 min    | 2023 | 0.46M        | Speed  |
+|                 | Beijing Subway     |                                                                                                         | 15 min    | 2023 | 0.87M        | Flow, Demand  |
+|                 | SHMetro            |                                                                                                         | 15 min    | 2023 | 5.07M        | Flow, Demand  |
+|                 | HZMetro            |                                                                                                         | 2 min    | 2023 | 0.38M        | Flow, Demand  |
+|                 | Q-Traffic          |                                                                                                         | 15 min    | 2023 | 264.39M      | Speed  |
+| **Autoformer**  | Traffic            | [Autoformer: Decomposition Transformers with Auto-Correlation for Long-Term Series Forecasting](https://arxiv.org/pdf/2106.13008)           | Hourly    | 2021 | 15M   | occupancy rates         |
+| **Monash**      | Vehicle Trips      | [Monash Time Series Forecasting Archive](https://arxiv.org/pdf/2105.06643)     | Daily    | 2021 | 3.13M        | -                       |
+|  | Pedestrian Counts |  | Hourly | 2021 |  | hourly pedestrian counts |
+|  | rideshare |  | Hourly | 2021 |  | attributes related to Uber and Lyft rideshare services |
+| **LargeST**     | PEMS03 PEMS04 PEMS07 PEMS08 PEMS_BAY LOS_LOOP LOOP_SEATTLE SZ_TAXI Beijing_subway SHMETROY  HZMETRO Q-Traffic            | [LargeST: A Benchmark Dataset for Large-Scale Traffic Forecasting](https://arxiv.org/pdf/2306.08259)                                    | 2 min-30 min     | 2023 | -            | Flow, Speed, Demand                       |         
+| **Gluonts**     | TAXI               | [Gluonts: Probabilistic and neural time series modeling in python](https://arxiv.org/pdf/1906.05264)                                        | 30 min    | 2020 | 55.00M       | -                       |
+|    | UBER TLC DAILY     |  | Daily     | 2020 | 0.05M        | Uber pickups                       |
+|                 | UBER TLC HOURLY    |                 | Hourly    | 2020 | 1.13M        | Uber pickups                       |
+| **Istanbul-Traffic** | Istanbul-Traffic              | [Kaggle Dataset](https://www.kaggle.com/datasets/leonardo00/istanbul-traffic-index)                     | 1 min  | 2022 | 0.88M      | Traffic index (congestion) |
+| **TrafficText** | TrafficText                  | [Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis](https://arxiv.org/pdf/2406.08627)                                      | Monthly   | 2024 | 0.004M        | Traffic Volume           |
 
 ## Papers
 ### Pure Time Series Traffic Prediction

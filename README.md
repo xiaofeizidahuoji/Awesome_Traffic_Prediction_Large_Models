@@ -47,14 +47,14 @@ This repository presents a comprehensive review of Traffic Prediction Large Mode
 - [ICML2024] Timer: Generative Pre-trained Transformers Are Large Time Series Models [[Paper](https://arxiv.org/pdf/2402.02368)] [[Github](https://github.com/thuml/Large-Time-Series-Model)]
 - [ICLR2025 Spotlight] Time-MoE: Billion-Scale Time Series Foundation Models with Mixture of Experts [[Paper](https://arxiv.org/pdf/2409.16040)] [[Github](https://github.com/Time-MoE/Time-MoE)]
 - [arXiv2024] TimeSiam: A Pre-Training Framework for Siamese Time-Series Modeling [[Paper](https://arxiv.org/pdf/2402.02475)] [[Github](https://github.com/thuml/TimeSiam)]
-- [NIPS2023] SimMTM: A Simple Pre-Training Framework for Masked Time-Series Modeling [[Paper](https://arxiv.org/pdf/2302.00861)] [[Github](https://github.com/thuml/SimMTM)]
-- [NIPS2024] TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables [[Paper](https://arxiv.org/pdf/2402.19072)] [[Github](https://github.com/thuml/TimeXer)]
+- [NeurIPS2023] SimMTM: A Simple Pre-Training Framework for Masked Time-Series Modeling [[Paper](https://arxiv.org/pdf/2302.00861)] [[Github](https://github.com/thuml/SimMTM)]
+- [NeurIPS2024] TimeXer: Empowering Transformers for Time Series Forecasting with Exogenous Variables [[Paper](https://arxiv.org/pdf/2402.19072)] [[Github](https://github.com/thuml/TimeXer)]
 - [ICLR2025] Timer-XL: Long-Context Transformers for Unified Time Series Forecasting [[Paper](https://openreview.net/forum?id=KMCJXjlDDr)] [[Github](https://github.com/thuml/timer-xl)]
-- [NIPS2024] UNITS: A Unified Multi - Task Time Series Model [[Paper](https://arxiv.org/pdf/2403.00131)] [[Github](https://github.com/mims-harvard/UniTS)]
+- [NeurIPS2024] UNITS: A Unified Multi - Task Time Series Model [[Paper](https://arxiv.org/pdf/2403.00131)] [[Github](https://github.com/mims-harvard/UniTS)]
 
 #### LLMs for Traffic Prediction
-- [NIPS2023 Spotlight] One Fits All:Power General Time Series Analysis by Pretrained LM [[Paper](https://arxiv.org/pdf/2302.11939)] [[Github](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
-- [NIPS2023] Large Language Models Are Zero-Shot Time Series Forecasters [[Paper](https://arxiv.org/pdf/2310.07820)] [[Github](https://github.com/ngruver/llmtime)]
+- [NeurIPS2023 Spotlight] One Fits All:Power General Time Series Analysis by Pretrained LM [[Paper](https://arxiv.org/pdf/2302.11939)] [[Github](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All)]
+- [NeurIPS2023] Large Language Models Are Zero-Shot Time Series Forecasters [[Paper](https://arxiv.org/pdf/2310.07820)] [[Github](https://github.com/ngruver/llmtime)]
 - [TIST2025] LLM4TS: Aligning Pre-Trained LLMs as Data-Efficient Time-Series Forecasters [[Paper](https://arxiv.org/pdf/2308.08469)] [[Github](https://github.com/liaoyuhua/LLM4TS)]
 - [ICML2024] Multi-Patch Prediction: Adapting LLMs for Time Series Representation Learning [[Paper](https://arxiv.org/pdf/2402.04852)] [[Github](https://github.com/yxbian23/aLLM4TS)]
 - [ICLR2024] Time-LLM: Time Series Forecasting by Reprogramming Large Language Models [[Paper](https://arxiv.org/pdf/2310.01728)] [[Github](https://github.com/KimMeen/Time-LLM)]
@@ -62,7 +62,7 @@ This repository presents a comprehensive review of Traffic Prediction Large Mode
 - [ICLR2024] TEST: Text Prototype Aligned Embedding to Activate LLM's Ability for Time Series [[Paper](https://openreview.net/pdf?id=Tuh4nZVb0g)] [[Github](https://github.com/SCXsunchenxi/TEST)]
 - [ICLR2024] TEMPO: Prompt-based Generative Pre-trained Transformer for Time Series Forecasting [[Paper](https://arxiv.org/pdf/2310.04948)] [[Github](https://github.com/DC-research/TEMPO)]
 - [ICML2024] S^2IP-LLM: Semantic Space Informed Prompt Learning with LLM for Time Series Forecasting [[Paper](https://arxiv.org/abs/2403.05798)] [[Github](https://github.com/panzijie825/s2ip-llm)]
-- [NIPS2024] AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [[Paper](https://arxiv.org/pdf/2402.02370)] [[Github](https://github.com/thuml/AutoTimes)]
+- [NeurIPS2024] AutoTimes: Autoregressive Time Series Forecasters via Large Language Models [[Paper](https://arxiv.org/pdf/2402.02370)] [[Github](https://github.com/thuml/AutoTimes)]
 - [AAAI2025] CALF: Aligning LLMs for Time Series Forecasting via Cross-modal Fine-Tuning [[Paper](https://arxiv.org/pdf/2403.07300)] [[Github](https://github.com/Hank0626/CALF)]
 - [AAAI2025] TimeCMA: Towards LLM-Empowered Multivariate Time Series Forecasting via Cross-Modality Alignment [[Paper](https://arxiv.org/pdf/2406.01638)] [[Github](https://github.com/ChenxiLiu-HNU/TimeCMA)]
 - [ICLR2025] Context-Alignment: Activating and Enhancing LLM Capabilities in Time Series [[Paper](https://arxiv.org/pdf/2501.03747)] [[Github](https://github.com/tokaka22/ICLR25-FSCA)]
@@ -74,8 +74,8 @@ This repository presents a comprehensive review of Traffic Prediction Large Mode
 
 ### Spatiao-temporal Traffic Prediction
 ### Multimodal Traffic Prediction
-- [NIPS2024] Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis [[Paper](https://arxiv.org/pdf/2406.08627)] [[Github](https://github.com/AdityaLab/Time-MMD)]
-- [NIPS2024] From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection [[Paper](https://arxiv.org/pdf/2409.17515)] [[Github](https://github.com/ameliawong1996/From_News_to_Forecast)]
+- [NeurIPS2024] Time-MMD: Multi-Domain Multimodal Dataset for Time Series Analysis [[Paper](https://arxiv.org/pdf/2406.08627)] [[Github](https://github.com/AdityaLab/Time-MMD)]
+- [NeurIPS2024] From News to Forecast: Integrating Event Analysis in LLM-Based Time Series Forecasting with Reflection [[Paper](https://arxiv.org/pdf/2409.17515)] [[Github](https://github.com/ameliawong1996/From_News_to_Forecast)]
 - [AAAI2024] GPT4MTS: Prompt-based Large Language Model for Multimodal Time-series Forecasting [[Paper](https://ojs.aaai.org/index.php/AAAI/article/view/30383)]
 - [arXiv2025] Context-Aware Probabilistic Modeling with LLM for Multimodal Time Series Forecasting [[Paper](https://arxiv.org/pdf/2505.10774)]
 
